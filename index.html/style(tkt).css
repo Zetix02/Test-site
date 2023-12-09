@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+  }
+  
+  /* Style du contenu principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style du pied de page */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* Style pour les appareils de moins de 600 pixels de large */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Style pour les appareils de moins de 900 pixels de large */
+  @media only screen and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  /* Style pour les liens */
+a {
+    color: blue; /* Couleur du texte du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    font-size: 16px; /* Taille de la police */
+    padding: 400px 500px; /* Espacement intérieur du lien */
+    margin-right: 20px; /* Marge à droite du lien */
+  }
+  

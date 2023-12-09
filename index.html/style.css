@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style de l'en-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+  }
+  
+  /* Style du contenu principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style du pied de page */
+  footer {
+    text-align: center;
+    background-color:   #72595900;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+  }
+  /* Style pour les appareils de moins de 600 pixels de large */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Style pour les appareils de moins de 900 pixels de large */
+  @media only screen and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  /* Style pour déplacer le texte */
+p {
+    position: absolute; /* Position absolue pour placer précisément */
+    top: 100px; /* Distance par rapport au haut */
+    left: 700px; /* Distance par rapport à gauche */
+  }
+  #textToMove {
+    position: relative;
+    top: 520px;
+  }
+   
